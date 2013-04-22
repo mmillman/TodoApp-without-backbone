@@ -1,0 +1,37 @@
+// Place all the styles related to the todo_items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+//  background-image: url(http://www.ployii.com/Gallery/29-TomKha.jpg);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+//  opacity: 0.1;
+}
+
+#todoapp h1 {
+	position: absolute;
+//  top: -120px;
+	width: 100%;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #b3b3b3;
+	color: rgba(255, 255, 255, 0.3);
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+
+//#body-title {
+//  text-align: center;
+//  font-size: 50px;
+//  font-color: #AAAAAA;
+//}
+
+#test {
+  background-color: #AAAAAA;
+}

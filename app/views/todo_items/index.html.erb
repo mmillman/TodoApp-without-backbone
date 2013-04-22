@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title id="head-title">Todo List</title>
+</head>
+<body>
+  <section id="todoapp">
+    <h1>todos</h1>
+    <p id="test">Testing css styling</p>
+    <div id="todo-list"></div>
+    <script type="text/javascript">
+      $(function () {
+        var todoList = new TD.Views.TodoListView($('#todo-list'));
+        var test = new TD.Models.TodoItem({ "title": "Item 1", "completed": false });
+        test.test();
+      });
+    </script>
+  </section>
+</body>
+
+</html>

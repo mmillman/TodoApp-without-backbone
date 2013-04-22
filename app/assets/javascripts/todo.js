@@ -1,6 +1,6 @@
 var TD = (function () {
   return {
-    Router: {},
+    Routers: {},
     Models: {},
     Views: {}
   }
